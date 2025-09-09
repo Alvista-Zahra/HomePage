@@ -16,14 +16,12 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Ambil data dari Intent
         val username = intent.getStringExtra("EXTRA_USERNAME")
         val email = intent.getStringExtra("EXTRA_EMAIL")
         val phone = intent.getStringExtra("EXTRA_PHONE")
 
         binding.txtWelcome.text = "Welcome $username"
 
-        // Cek jika data email dan phone ada
         if (email != null && phone != null) {
             binding.txtEmail.text = "Your email $email has been activated"
             binding.txtPhone.text = "Your phone $phone has been registered"

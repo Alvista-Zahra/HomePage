@@ -10,12 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
-        <!-- Homepage / Main -->
         <activity
             android:name=".MainActivity"
             android:exported="false" />
-
-        <!-- Login sebagai halaman pertama (launcher) -->
         <activity
             android:name=".LoginActivity"
             android:exported="true">
@@ -25,7 +22,6 @@
             </intent-filter>
         </activity>
 
-        <!-- Register -->
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />
