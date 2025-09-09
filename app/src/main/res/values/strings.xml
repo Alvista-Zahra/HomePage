@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Latihan</string>
+    <string name="toc">By checking the box you agree to out Terms and Conditions.</string>
+    <string name="acc">Already have an Account?</string>
+    <string name="email">Your email has been activated</string>
+    <string name="phone">Your phone has been registered</string>
+    <string name="username">Welcome Username</string>
+
+</resources>
